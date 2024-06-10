@@ -11,6 +11,9 @@ session_start()
     <link rel="stylesheet" href="../Css/index.css?v=<?php echo time(); ?>">
 </head>
 <body>
+<?php
+include '../Includes/_Header.php'
+?>
     <h1>Log-In</h1>
     <form method="POST">
         <input type="text" name="Login" placeholder="Username"><br>
@@ -37,5 +40,8 @@ session_start()
         }
     }
     ?>
+    <?php
+include '../Includes/_Footer.php'
+?>
 </body>
 </html>

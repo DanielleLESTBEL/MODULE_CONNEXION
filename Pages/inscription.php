@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../Css/index.css?v=<?php echo time(); ?>">
 </head>
 <body>
+<?php
+include '../Includes/_Header.php'
+?>
     <h1>Inscription</h1>
     <form method="POST">
         <input type="text" name="Login" placeholder="Username"><br>
@@ -54,9 +57,11 @@ $result = mysqli_query($mysqli, "SELECT * FROM `utilisateurs`");
         }
         }
     }
-
-
-
     ?>
+
+<?php
+include '../Includes/_Footer.php'
+?>
+
 </body>
 </html>

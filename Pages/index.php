@@ -12,8 +12,7 @@ include '../Includes/_Header.php'
 ?>
 
     <section class="titles">
-        <h1 class="titre1_index"> Conduite accompagnée </h1>
-        <h1 class="titre1_index"> Max </h1>
+        <h1 class="titre1_index"> Conduite accompagnée</h1>
         <h1 class="titre1_index"> 2023-2024 </h1>
         <h2 class="sous_titre_km"> Ajoute tes km ! </h2>
         </section>
@@ -28,6 +27,7 @@ include '../Includes/_Footer.php'
 ?>
 
 </body>
+</html>
 
 
 
