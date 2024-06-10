@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DB9918;
+    font-family: calibri, tahoma, sans_serif;
+    font-size: 2vw;
+    background-image: url("../Assests/pictures/206.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    background-color: #DC7520;
+    color: #B6DC26;
+    font-size: 3vw;
+}
+
+.titre1_index{
+    color: #B6DC26;
+    text-align: right;
+    font-size: 5vw;
+    padding-right: 2vw;
+    
+}
+
+.sous_titre_km{
+    color: #DC7520;
+    text-align: right;
+    font-size: 4vw;
+    padding-right: 2vw;
+}
+
+.connexion{
+    font-weight: 3vw;
+    border-radius: 3vw;
+    border: #3b14e6 0.5vw solid olive;
+    background-color: #DCC05E;
+    
+}   
+.button_conctn{
+    font-weight: 3vw;
+    border-radius: 3vw;
+    border: #3b14e6 0.5vw solid olive;
+    background-color: #DCC05E;      
+}
