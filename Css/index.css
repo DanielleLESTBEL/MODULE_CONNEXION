@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
+    
     background-color: #DB9918;
     font-family: calibri, tahoma, sans_serif;
     font-size: 2vw;
@@ -11,9 +11,12 @@ body{
 }
 header{
     display: flex;
-    flex-direction:row;
+    flex-wrap:wrap;
     justify-content: center;
+    text-align: center;
     padding: 0;
+    height: 6vw;
+    
     background-color: hsl(27, 75%, 49%);
     color: #B6DC26;
     font-size: 3vw;
@@ -24,7 +27,8 @@ footer{
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    margin-top: 5vw;
+    padding: 0vw;
+    height: 6vw;
     background-color: hsl(27, 75%, 49%);
     color: #B6DC26;
     font-size: 2vw;
