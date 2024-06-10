@@ -11,13 +11,25 @@ body{
 }
 header{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-between;
     align-items: center;
-    padding: 1vw;
-    background-color: #DC7520;
+    padding: 0;
+    background-color: hsl(27, 75%, 49%);
     color: #B6DC26;
     font-size: 3vw;
+}
+
+footer{
+    display: flex;
+    flex-direction:row;
+    justify-content:first baseline;
+    align-items: center;
+    margin-top: 0;
+    padding: 0;
+    background-color: hsl(27, 75%, 49%);
+    color: #B6DC26;
+    font-size: 2vw;
 }
 
 .titre1_index{
@@ -29,7 +41,7 @@ header{
 }
 
 .sous_titre_km{
-    color: #DC7520;
+    color: #DCC05E;
     text-align: right;
     font-size: 4vw;
     padding-right: 2vw;
@@ -40,11 +52,17 @@ header{
     border-radius: 3vw;
     border: #3b14e6 0.5vw solid olive;
     background-color: #DCC05E;
+    text-align: end;
     
 }   
-.button_conctn{
+.button_cnctn{
+    width: 9vw;
+    height: fit-content;
+    margin-left: 50vw;
     font-weight: 3vw;
     border-radius: 3vw;
     border: #3b14e6 0.5vw solid olive;
-    background-color: #DCC05E;      
+    background-color: #DCC05E;    
+    
+    
 }
